@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./resources/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <div class="item">
+        <p class="result">Your Result</p>
+        <div class="bgColor">
+          <p id="count" class="number">0</p>
+          <p class="of">of 100</p>
+        </div>
+        <h1 class="great">Great</h1>
+        <p class="paragraph">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="item1">
+        <p class="summary">Summary</p>
+        <div class="container1">
+          <div class="red">
+            <div class="icon">
+              <img class="icon" src="./assets/images/icon-reaction.svg" alt="This is a thunder icon">
+              <span class="reaction">Reaction</span>
+            </div>
+            <div class="score">
+              <span id="count1" class="note">0</span> <span class="num">/ 100</span>
+            </div>
+          </div>
+          <div class="orange">
+            <div class="icon1">
+              <img class="iconM" src="./assets/images/icon-memory.svg" alt="This is a memory icon">
+              <span class="memory">Memory</span>
+            </div>
+            <div class="score1">
+              <span id="count2" class="note">0</span> <span class="num">/ 100</span>
+            </div>
+          </div>
+          <div class="green">
+            <div class="icon2">
+              <img class="iconM" src="./assets/images/icon-verbal.svg" alt="This is a verbal icon">
+              <span class="verbal">Verbal</span>
+            </div>
+            <div class="score2">
+              <span id="count3" class="note">0</span> <span class="num">/ 100</span>
+            </div>
+          </div>
+          <div class="purple">
+            <div class="icon3">
+              <img class="iconM" src="./assets/images/icon-visual.svg" alt="This is a vision icon">
+              <span class="visual">Visual</span>
+            </div>
+            <div class="score3">
+              <span id="count4" class="note">0</span> <span class="num">/ 100</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn" type="button">Continue</button>
+      </div>
+    </div>
+
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="#">Black Fury</a>.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

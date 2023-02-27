@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #f8f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "item item1"; 
+    justify-items: stretch;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 635px;
+    height: 445px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    
+    border-radius: 30px;
+    padding: 2.5rem;
+    grid-area: item;background-color: hsla(256, 72%, 46%, 1);
+}
+
+.item1 {
+    padding: 2.5rem;
+    grid-area: item1;
+}
+
+.result {
+    color: #ffffffc7;
+    font-size: 1.35rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.bgColor {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0 41px 41px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
+}
+
+.number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.of {
+    color: #ffffffad;
+    font-size: 0.900rem;
+}
+
+.great {
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1.2rem;
+}
+
+.paragraph {
+    color: #ffffffad;
+    text-align: center;
+}
+
+.summary {
+    color: black;
+    font-size: 1.35rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.container1 {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "red"
+      "orange"
+      "green"
+      "purple";
+    margin-bottom: 1.5rem;
+}
+
+.red {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "icon score"; 
+    align-items: center; 
+    grid-area: red;
+    background-color: #fff6f5;
+    border-radius: 12px;
+    height: 1.563rem;
+    padding: 0.65rem;
+    margin-bottom: 0.600rem;
+}
+
+.icon {
+    justify-self: start; 
+    grid-area: icon;
+    display: flex;
+    align-items: center;
+}
+
+.score {
+    justify-self: end; 
+    grid-area: score; 
+}
+
+.reaction {
+    font-weight: 500;
+    color: #ed4e4e;
+}
+
+.note {
+    font-weight: 700;
+}
+
+.num {
+    color: #9f98a0;
+}
+
+.orange {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "icon1 score1"; 
+    align-items: center; 
+    grid-area: orange;
+    background-color: #fffbf2;
+    border-radius: 12px;
+    height: 1.563rem;
+    padding: 0.65rem;
+    margin-bottom: 0.600rem;
+}
+.score1 {
+    justify-self: end; 
+    grid-area: score1;
+}
+
+.icon1 {
+    justify-self: start; 
+    grid-area: icon1;
+    display: flex;
+    align-items: center;
+}
+
+.iconM {
+    margin-right: 0.200rem;
+}
+
+.memory {
+    color: #f1bb4e;
+    font-weight: 500;
+}
+
+.green {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "icon2 score2"; 
+    align-items: center; 
+    grid-area: green;
+    background-color: #f2fbfa;
+    border-radius: 12px;
+    height: 1.563rem;
+    padding: 0.65rem;
+    margin-bottom: 0.600rem;
+}
+
+.score2 {
+    justify-self: end; 
+    grid-area: score2; 
+}
+
+.icon2 {
+    justify-self: start; 
+    grid-area: icon2;
+    display: flex;
+    align-items: center;
+}
+
+.verbal {
+    font-weight: 500;
+    color: #37ac8e;
+}
+
+.purple {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "icon3 score3"; 
+    align-items: center; 
+    grid-area: purple;
+    background-color: #f3f3fd;
+    border-radius: 12px;
+    height: 1.563rem;
+    padding: 0.65rem;
+    margin-bottom: 0.700rem;
+}
+
+.score3 {
+    justify-self: end; 
+    grid-area: score3;
+}
+
+.icon3 {
+    justify-self: start; 
+    grid-area: icon3;
+    display: flex;
+    align-items: center;
+}
+
+.visual {
+    font-weight: 500;
+    color: #3640b2;
+}
+
+.btn {
+    font-size: 0.950rem;
+    font-weight: 600;
+    background-color: #303b59;
+    color: #fff;
+    width: 100%;
+    height: 2.7rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+footer {
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    color: rgb(46, 45, 45);
+}
+
+@media only screen and (max-width: 600px) {
+    .container {  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "item"
+          "item1";
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .item { 
+        grid-area: item;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }  
+    .item1 { 
+        grid-area: item1;
+    }
+    footer {
+        display: none;
+    }
+}
+ 
