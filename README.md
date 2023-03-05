@@ -2,7 +2,7 @@
 
 My #5 challenge on Frontend Mentor, and the mission was to create a responsive results component
 
-##Built with
+## Built with
 
 HTML | CSS | Flexbox | CSS Grid | JavaScript
 
