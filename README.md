@@ -1,16 +1,21 @@
 # Frontend Mentor Challenge | Results-summary-component
 
-![Results summary component challenge on Front-End Mentor](https://github.com/BlackFury117/Results-summary-component/blob/main/design/desktop-preview.jpg?raw=true)
+![Results summary component challenge on Front-End Mentor](./design/Screenshot-of-my-own-design.png)
 
-**My #5 challenge on Frontend Mentor, and the mission was to create a responsive results component**
+This is the solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-results-component-using-html-css-and-some-javascript-OK01CqbnrU). Frontend Mentor challenges help us to improve our coding skills by building realistic projects. <br><br>
 
 ## Built with
 
-HTML | CSS (Flexbox and CSS Grid) | JavaScript
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-You can preview it here ==> <a href="https://blackfury117.github.io/Results-summary-component/">Results summary component</a>
+Preview it here - [Results summary component](https://blackfury117.github.io/Results-summary-component/) <br><br>
 
 ## Author
 
-Personal website ==> <a href="https://blackfury117.github.io/" target="_blank">Black Fury</a> <br>
-Frontend Mentor ==> <a href="https://www.frontendmentor.io/profile/BlackFury117" target="_blank">@BlackFury117</a>
+- Website - [Black Fury](https://blackfury117.github.io/)
+- Frontend Mentor - [@BlackFury117](https://www.frontendmentor.io/profile/BlackFury117)
+- Twitter - [@blackfury117](https://twitter.com/blackfury117)
